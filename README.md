@@ -17,3 +17,7 @@ Test to utilising the mycrt.lib:
   3. compile: >cl /c /DWIN32 /GS- test.c
   4. link:    >link test.obj mycrt.lib kernel32.lib /NODEFAULTLIB /entry:my_crt_entry
   5. run the generated test.ext, you will realize that the size of generated text.exe is very small.
+
+Reference:
+  程序员的自我修养--俞甲子，石凡，潘爱民
+  
